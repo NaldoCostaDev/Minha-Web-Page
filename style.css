@@ -647,9 +647,9 @@ color: #00e1ff;
 .journeys {
 
   flex-direction: column;
-  width: 220%;
+  width: 210%;
   height: auto;
-  
+  max-width: 720px;
   gap: 15px;
   padding: 10px;
 
