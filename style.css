@@ -426,7 +426,7 @@ justify-content: space-around;
 .journey-box {
 width: 45%;
 border: 1.5px solid rgba(0, 89, 255, 0.973);
-padding: 20px;
+padding: 20px ;
 border-radius: 8px;
 transition: background-color 5s, box-shadow 1.5s;
 position: relative;
@@ -649,12 +649,14 @@ color: #00e1ff;
   flex-direction: column;
   width: 210%;
   height: auto;
-  max-width: 720px;
-  gap: 15px;
+  gap: 12px;
   padding: 10px;
 
 
 }
+.journey-box {
+  width: 100%;
+  }
 
 
 header >.interface{
